@@ -33,6 +33,9 @@ const StartingPage = () => {
         }
 
     }
+    const addRest = () => {
+      
+    }
   return (
     <div className="flex justify-center items-center min-h-screen bg-orange-100">
   <form action="" className="bg-white p-6 rounded-2xl shadow-lg flex space-x-3">
@@ -49,6 +52,7 @@ const StartingPage = () => {
       Submit
     </button>
   </form>
+  <button onClick={addRest()}> Add Resturant</button>
 </div>
 
   )
